@@ -15,6 +15,7 @@ Publish 10 videos (20 scripts, 2 per video) themed for Father's Day.
 - Dad-life humor
 - Appreciation for fathers
 - Classic props: grill, lawn, recliner, remote, socks, coffee, tie, toolbox
+- Mild bathroom humor (gas/wind wordplay) — permitted per updated content_rules
 
 ## Script Format
 Each script uses the 4-line format:
@@ -29,4 +30,6 @@ Each script uses the 4-line format:
 ## Queue Notes
 - 20 scripts filed as F_fathers_day_001 through F_fathers_day_020
 - Channel upload disabled until OAuth is resolved
-- Stale ready item F_20260502_01 exists — must be processed or moved before new batch uploads
+- **Action required (Joey):** Move F_20260502_01.txt from script_queue/F/ready/ to
+  script_queue/F/processed/ before enabling uploads. This item WILL post before the
+  Father's Day batch if left in ready/. Required by: June 14, 2026.
