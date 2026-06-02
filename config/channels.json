@@ -1,0 +1,24 @@
+{
+  "channels": [
+    {
+      "id": "A",
+      "name": "Life Hacks",
+      "enabled": true,
+      "queue_folder": "script_queue/A"
+    },
+    {
+      "id": "B",
+      "name": "Trivia Bites",
+      "enabled": true,
+      "queue_folder": "script_queue/B"
+    },
+    {
+      "id": "F",
+      "name": "PG-13 Dad Jokes",
+      "enabled": false,
+      "queue_folder": "script_queue/F",
+      "template": "channel_F_template",
+      "disabled_reason": "OAuth token expired — see youtube.json"
+    }
+  ]
+}

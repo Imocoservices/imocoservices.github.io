@@ -1,0 +1,27 @@
+{
+  "channel_id": "F",
+  "channel_name": "PG-13 Dad Jokes",
+  "format": "YouTube Shorts",
+  "aspect_ratio": "9:16",
+  "duration_target_seconds": 30,
+  "scripts_per_video": 2,
+  "script_merge_order": "sequential",
+  "tts_voice": "en-US-Standard-D",
+  "caption_style": "bold_center",
+  "background": "static_image_rotation",
+  "music": "soft_upbeat_loop",
+  "queue": {
+    "pending_folder": "script_queue/F/pending",
+    "ready_folder": "script_queue/F/ready",
+    "processed_folder": "script_queue/F/processed",
+    "sort_order": "filename_ascending",
+    "folder_priority": ["ready", "pending"]
+  },
+  "content_rules": {
+    "max_words_per_script": 50,
+    "rating": "PG-13",
+    "rating_notes": "Clean, warm humor suitable for a family room. Mild wordplay and groan-worthy puns only. Mild bathroom humor (gas/wind puns) is permitted. No crude language, gross-out content, or adult themes.",
+    "themes": ["dad_life", "family", "seasonal", "mild_bathroom_humor"],
+    "forbidden": ["gross_out_content", "politics", "mean_spouse", "engagement_bait", "crude_language"]
+  }
+}
