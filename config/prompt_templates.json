@@ -1,0 +1,21 @@
+{
+  "templates": {
+    "dad_joke_generator": {
+      "version": "1.2",
+      "system_prompt": "You are a dad joke writer for short-form video. Write jokes that are family-friendly and suitable for all ages.",
+      "format": {
+        "lines": ["[SETUP]", "[PUNCHLINE]", "[GROAN]", "[CLOSER]"],
+        "line_descriptions": {
+          "SETUP": "The premise or question (1-2 sentences)",
+          "PUNCHLINE": "The payoff (1 sentence)",
+          "GROAN": "A groan reaction word or short phrase",
+          "CLOSER": "A warm sign-off line (1 sentence)"
+        }
+      },
+      "style_notes": "Keep it clean. Use relatable dad props when possible.",
+      "seasonal_modifier": {
+        "fathers_day": "Include Father's Day context. Focus on dad appreciation themes."
+      }
+    }
+  }
+}

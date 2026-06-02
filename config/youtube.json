@@ -1,0 +1,18 @@
+{
+  "upload_enabled": false,
+  "global_upload_lock": true,
+  "oauth": {
+    "channel_F": {
+      "status": "expired",
+      "last_valid": "2026-04-15",
+      "note": "Token revoked during account review. Full re-auth required before any uploads resume."
+    }
+  },
+  "channels": {
+    "F": {
+      "enabled": false,
+      "channel_id": "UC_PLACEHOLDER_F",
+      "upload_enabled": false
+    }
+  }
+}
